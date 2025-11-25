@@ -1,39 +1,42 @@
 # Bandit Notes
 
-# Level 01
+# Level 0
 - Goal: SSH login
 - Commands used:
-- ```bash
-  ssh bandit01@bandit.labs.overthewire.org -p 2220
-  ```
+- ssh bandit01@bandit.labs.overthewire.org -p 2220
 - Notes and learning points:
-  - Learned how to initiate an SSH connection to a remote server.
-  - Used the provided username and password for login.
-  - Observed the welcome message and `readme` file in the home directory.
-  - Noted the default shell environment and basic Linux commands available (`ls`, `cat`, `pwd`).
-  - Practiced securely exiting the session using `exit`.
+  - password = `bandit0`
+  - p option lets you specify the ssh port.
+  - List a name before an ip/hostname followed by @ to login to a specific user via ssh.
 
-# Level 02
+# Level 0 -> 1
 - Goal: Read the file `readme`
+- username bandit0
+- password bandit0
 - Commands used:
+- ls -la
+- cat readme
 - Notes and learning points:
+-  password = `ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If`
 
-# Level 03
+# Level 1 -> 2
 - Goal: Handle a file with a special name (`-`)
+- username bandit1@bandit.labs.overthewire.org -p 2220
+- password ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 - Commands used:
 - Notes and learning points:
 
-# Level 04
+# Level 2 -> 3
 - Goal: Deal with spaces in filenames (quoting or escaping)
 - Commands used:
 - Notes and learning points:
 
-# Level 05
+# Level 3 -> 4
 - Goal: Identify hidden files (dotfiles) to find the password
 - Commands used:
 - Notes and learning points:
 
-# Level 06
+# Level 4 -> 5
 - Goal: Use `file` to find a human-readable file among many
 - Commands used:
 - Notes and learning points:
