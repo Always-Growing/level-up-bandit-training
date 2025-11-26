@@ -21,13 +21,20 @@
 
 # Level 1 -> 2
 - Goal: Handle a file with a special name (`-`)
-- username bandit1@bandit.labs.overthewire.org -p 2220
+- username ssh bandit1@bandit.labs.overthewire.org -p 2220
 - password ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 - Commands used:
+- ls -la
+- vi -
 - Notes and learning points:
+- password = `263JGJPfgU6LtdEvgfWU1XP5yac29mFx`
+- You should be able to view the file with `cat -- -`.
+- cat did not work for me so I used vi as my fallback option.
 
 # Level 2 -> 3
 - Goal: Deal with spaces in filenames (quoting or escaping)
+- username ssh bandit2@bandit.labs.overthewire.org -p 2220
+- password 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 - Commands used:
 - Notes and learning points:
 
