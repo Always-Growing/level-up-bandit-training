@@ -36,10 +36,15 @@
 - username ssh bandit2@bandit.labs.overthewire.org -p 2220
 - password 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 - Commands used:
+- ls -la
+- cat -- '--spaces in this filename'
 - Notes and learning points:
 
+**Current Level**
 # Level 3 -> 4
 - Goal: Identify hidden files (dotfiles) to find the password
+- username ssh bandit3@bandit.labs.overthewire.org -p 2220
+- password MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 - Commands used:
 - Notes and learning points:
 
