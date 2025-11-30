@@ -72,8 +72,8 @@
 - The intended solution is to use 'file'
 - 'file ./*' will show you the formatting of each file. Look for the ASCII text file. 
 
-**Current Level**
-# Level 5 -> 6
+
+# Level 5 -> 6 **Current Level**
 - Goal: Find a file of specific size and permissions
 - username ssh bandit5@bandit.labs.overthewire.org -p 2220
 - password 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
