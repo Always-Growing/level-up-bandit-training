@@ -84,7 +84,10 @@
 - cd ./maybehere07/
 - cat .file2
 - Notes and learning points:
-- Add in notes for this level later.
+- type has some common options:f (file), d (directory), l (symbolic link)
+- size has some common options:c (bites), k (kilobytes), M (megabytes), G (gigabytes), T (terabytes)
+- ! not besides -execure you could use -user for something not created by a user
+- find . -type f -size 1033c ! -user -bob   This command looks for file this size not owned by bob
   
 # Level 6 → 7 **Current Level**
 - Goal: Locate a file by user/group ownership
