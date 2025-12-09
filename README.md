@@ -29,9 +29,9 @@ This repo is actively being updated with level outlines, notes, and commands as 
 | 04 → 05      | ✅     | Use `file` to find a human-readable file among many.                   |
 | 05 → 06      | ✅     | Find a file of specific size and permissions.                          |
 | 06 → 07      | ✅     | Locate a file by user/group ownership.                                 |
-| 07 → 08      | ⬜     | Use `grep` to extract a line containing a keyword.                      |
-| 08 → 09      | ⬜     | Use `sort` + `uniq -u` to find the unique line.                         |
-| 09 → 10      | ⬜     | Extract strings from a binary using `strings`.                          |
+| 07 → 08      | ✅     | Use `grep` to extract a line containing a keyword.                      |
+| 08 → 09      | ✅     | Use `sort` + `uniq -u` to find the unique line.                         |
+| 09 → 10      | ✅     | Extract strings from a binary using `strings`.                          |
 | 10 → 11      | ⬜     | Decode a Base64‑encoded file to get the password.                      |
 | 11 → 12      | ⬜     | Decode ROT13‑encoded text using `tr`.                                  |
 | 12 → 13      | ⬜     | Reverse a hexdump and decompress data to reveal password.              |
