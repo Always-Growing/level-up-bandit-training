@@ -99,24 +99,37 @@
 - Use the same find command but searching for a user
 - Use pipe redirection to eliminate errors
 
-# Level 7 → 8 **Current Level**
+# Level 7 → 8 
 - Goal: Use `grep` to extract a line containing a keyword
 - username ssh bandit7@bandit.labs.overthewire.org -p 2220
 - password morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 - Commands used:
+- grep millionth data.txt
 - Notes and learning points:
 
-# Level 8 → 9
+
+# Level 8 → 9 
+- username ssh bandit8@bandit.labs.overthewire.org -p 2220
+- password dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc 
 - Goal: Use `sort` + `uniq -u` to find the unique line
 - Commands used:
+- cat data.txt
+- sort data.txt | uniq -u
 - Notes and learning points:
+- I used the uniq command for the first time. I was unaware of this command.
+- uniq looks like it is a really useful linux command
 
-# Level 9 → 10
+# Level 9 → 10 
+- username ssh bandit9@bandit.labs.overthewire.org -p 2220
+- password 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 - Goal: Extract strings from a binary using `strings`
-- Commands used:
+- Commands used:g
+- grep -o '=.*' data.txt Searches for strings
+- strings data.txt | grep -o '=.*' Searches binary formating for the grep pattern
 - Notes and learning points:
+- strings prints human readible content from a file
 
-# Level 10 → 11
+# Level 10 → 11 **Current Level**
 - Goal: Decode a Base64-encoded file
 - Commands used:
 - Notes and learning points:
