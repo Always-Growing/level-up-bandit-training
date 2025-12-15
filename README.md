@@ -33,7 +33,7 @@ This repo is actively being updated with level outlines, notes, and commands as 
 | 08 → 09      | ✅     | Use `sort` + `uniq -u` to find the unique line.                         |
 | 09 → 10      | ✅     | Extract strings from a binary using `strings`.                          |
 | 10 → 11      | ✅     | Decode a Base64‑encoded file to get the password.                      |
-| 11 → 12      | ⬜     | Decode ROT13‑encoded text using `tr`.                                  |
+| 11 → 12      | ✅     | Decode ROT13‑encoded text using `tr`.                                  |
 | 12 → 13      | ⬜     | Reverse a hexdump and decompress data to reveal password.              |
 | 13 → 14      | ⬜     | Use an SSH key to log in and read a file.                              |
 | 14 → 15      | ⬜     | Connect to a service using `nc` (netcat) to send/receive the password. |
