@@ -141,14 +141,25 @@
 - If a file mainly contains letters and numbers like the below it is possible to have base64 encoding
 - `U29tZSBleGFtcGxlIHRleHQgdGhhdCBpcyBjb250YWluZWQgd2l0aCBhbiBpbWFnZQ==`
 
-# Level 11 → 12 **Current Level**
-- username ssh bandit10@bandit.labs.overthewire.org -p 2220
+# Level 11 → 12 
+- username ssh bandit11@bandit.labs.overthewire.org -p 2220
 - password dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 - Goal: Decode ROT13‑encoded text using `tr`
 - Commands used:
+- cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 - Notes and learning points:
+- `tr` command replaces one set of characters with another set of characters
+- syntax for `tr` is `tr 'from' to'`
+- So `A-Za-z` is replacing all uppecase and lowercase letters.
+- For Rot13 A should be N and Z should be M so using `N-ZA-Mn-za-M` shifts everything to the correct Rot13 character
+- After you shift a character to Rot13, you can apply it again to get the original characters. So Rot13 is reversible.
+- Rot13 was commonly used in the 1980s/1990s in forums to talk about spoilers.
+- People could decode the Rot13 message if they wanted to read it.
+- Not encrpytion, simply obfuscation.
 
-# Level 12 → 13
+# Level 12 → 13 **Current Level**
+- username ssh bandit12@bandit.labs.overthewire.org -p 2220
+- password 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 - Goal: Reverse a hexdump and decompress data to reveal password
 - Commands used:
 - Notes and learning points:
