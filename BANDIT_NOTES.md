@@ -169,36 +169,40 @@
 - file data
 - mv data data.gz
 - gunzip data.gz
-   22  file data
-   23  mv data data.bz2
-   24  bunzip2 data.bz2
-   25  file data
-   26  mv data data.gz
-   27  gunzip data.gz
-   28  file data
-   29  tar xf data
-   30  file data
-   31  tar xf data
-   32  file data
-   33  ls -l
-   34  mv data5.bin data
-   35  file data
-   36  tar xf data
-   37  ls -l
-   38  mv data6.bin data
-   39  file data
-   40* mv data8 data.bz2
-   41  bunzip2 data.bz2
-   42  file data
-   43  tar xf data
-   44  ls -l
-   45  mv data8.bin data
-   46  file data
-   47  mv data data.gz
-   48  gunzip data.gz
-   49  file data
-   50  cat data
+- file data
+- mv data data.bz2
+- bunzip2 data.bz2
+- file data
+- mv data data.gz
+- gunzip data.gz
+- file data
+- tar xf data
+- file data
+- tar xf data
+- file data
+- ls -l
+- mv data5.bin data
+- file data
+- tar xf data
+- ls -l
+- mv data6.bin data
+- file data
+- mv data8 data.bz2
+- bunzip2 data.bz2
+- file data
+- tar xf data
+- ls -l
+- mv data8.bin data
+- file data
+- mv data data.gz
+- gunzip data.gz
+- file data
+- cat data
+- history
 - Notes and learning points:
+- This level required a bunch of extracting of data, checking if I was at ascii text and repeating.
+- After extracting the bin files or the gunzips the data file was not updated. The extracted file had to be moved to replace the data file and then the process continued.
+- At the end of the process I used the history command to get a record of all the commands I used for this level.
 
 # Level 13 → 14 **Current Level**
 - username ssh bandit13@bandit.labs.overthewire.org -p 2220
